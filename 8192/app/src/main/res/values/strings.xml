@@ -2,4 +2,5 @@
     <string name="app_name">8192</string>
     <string name="oneShot">一発</string>
     <string name="omen">演出</string>
+    <string name="push">PUSH</string>
 </resources>
