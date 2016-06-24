@@ -1,0 +1,33 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ボタンが押された時の定義 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+
+            <gradient
+                android:angle="270"
+                android:startColor="#FFFF2DE0"
+                android:endColor="#FFFF62E7" />
+
+            <stroke
+                android:width="2dp"
+                android:color="#FF3D32FF" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+
+            <gradient
+                android:angle="270"
+                android:startColor="#FFFF1AE0"
+                android:endColor="#FFFF5BE7" />
+
+            <stroke
+                android:width="2dp"
+                android:color="#FF1A32FF" />
+        </shape>
+
+    </item>
+</selector>
